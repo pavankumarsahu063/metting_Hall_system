@@ -1,0 +1,67 @@
+.login-form, .register-form,.forgot-password-container,.edit-form,.add-form {
+    background-color: #f7f7f7;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    z-index: 99;
+  }
+  
+  .login-form h2, .register-form h2 ,.forgot-password-container h2,.edit-form h2{
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .login-form input, .register-form input,.forgot-password-container input,.edit-form input, .add-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .login-form input:focus, .register-form input:focus ,.forgot-password-container input:focus ,.edit-form input:focus ,.add-form input:focus{
+    border-color: #007BFF;
+  }
+  
+  .login-form button, .register-form button ,.forgot-password-container button ,.edit-form button,.add-form button{
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-form button:hover, .register-form button:hover ,.forgot-password-container button:hover ,.edit-form button:hover,.add-form button:hover{
+    background-color: #0056b3;
+  }
+  
+  .login-form span, .register-form span , .forgot-password-container span {
+    display: block;
+    margin-top: 15px;
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
+  .login-form a, .register-form a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  
+  .login-form a:hover, .register-form a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* Profile Css */

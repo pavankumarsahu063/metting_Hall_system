@@ -1,0 +1,129 @@
+/* Dark Mode  */
+
+#dark-mode{
+  background-color: #059669;
+}
+
+.dashboard-wrapper{
+    display: flex;
+}
+
+.sidebar{
+    max-width: 30%;
+    height: 100vh;
+    padding: 10px 50px;
+    background-color:#111827;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.sidebar .heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 0px;
+}
+.sidebar .heading img{
+    width: 120px;
+   height:120px;
+   border-radius: 50%;
+   
+}
+.sidebar .heading h3{
+    color: white;
+   
+}
+
+.nav-bar{
+    
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nav-bar button{
+    font-family: 'Poppins', sans-serif;
+
+    padding: 10px;
+    background-color:#e0eae7;
+    border: none;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+.nav-bar button.active{
+  background-color: brown;
+}
+.nav-bar button sup{
+    color: red;
+    font-size: 10px;
+    font-weight: 700;
+}
+.nav-bar button:hover{
+    background-color:  #059669;
+    transform: scale(1.1);
+}
+
+/* main #1F2937 */
+.main-content{
+  flex: 1;
+    background:#ffffff ;
+ 
+    height: 100vh;
+     overflow-y: auto;
+}
+
+.profile-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #fff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .profile-glass-card {
+    background: rgba(255, 255, 255, 0.2);
+    
+    border-radius: 20px;
+    padding: 35px 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: left;
+    color: #2c3e50;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .profile-image{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .profile-name,
+  .profile-email,
+  .profile-phone {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: 500;
+  }
+  
+  .profile-name span,
+  .profile-email span,
+  .profile-phone span {
+    font-weight: 600;
+  }
+  
+  .edit-button {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #0077ff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .edit-button:hover {
+    background-color: #005bb5;
+  }
+  
